@@ -1,0 +1,145 @@
+/* ================================= 
+  Base Styles
+==================================== */
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.images_1 {
+  width: 50vh;
+  max-width: 100%;
+  height: auto;
+  padding-right: 10px;
+}
+
+.images_2 {
+  width: 44.1vh;
+  max-width: 100%;
+  height: auto;
+  padding-right: 10px;
+}
+
+.images_3 {
+  width: 37.6vh;
+  max-width: 100%;
+  height: auto;
+  padding-right: 10px;
+}
+
+.images {
+  text-align: center;
+  border:1px solid;
+}
+
+.main-header {
+  padding: 5px;
+  color: purple;
+  font-size: 50px;
+  text-align: center;
+}
+  
+.info {
+  font-size: 18px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.link {
+  text-align: center;
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  color: deeppink;
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #333;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+  padding: 5px;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 1071px) {
+  .title {
+    font-size: 25px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .images_1 {
+    width: 60vh;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .images_2 {
+    width: 52.85vh;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .images_3 {
+    width: 45.1vh;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .images {
+    text-align: center;
+    border:1px solid;
+  }
+  
+  .main-header {
+    padding: 5px;
+    color: purple;
+    font-size: 60px;
+    text-align: center;
+  }
+  .info {
+    font-size: 23px;
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+}
+
+
+
+
+
+
+
+
+/* ================================= 
+  Clearfix
+==================================== */
+
+/* .clearfix {
+    overflow: auto;
+} */
