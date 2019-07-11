@@ -85,6 +85,35 @@ h3 {
 }
 
 /* ================================= 
+  Image Grid
+==================================== */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  align-items: center;
+}
+
+/*3 equal columns*/
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.rotateimg {
+  transform: rotate(90deg);
+}
+
+
+
+/* ================================= 
   Sticky Footer
 ==================================== */
 
@@ -123,6 +152,15 @@ footer,
 /* ================================= 
   Media Queries
 ==================================== */
+
+@media screen and (max-width: 600px) {
+.column {
+  flex: 50%;
+  max-width: 50%;
+  }
+}
+
+
 
 @media (min-width: 1071px) {
   .title {
