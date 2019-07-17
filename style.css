@@ -172,19 +172,95 @@ footer,
 /* ================================= 
   Media Queries
 ==================================== */
-
-@media (max-width: 650px) {
+@media (min-width: 450px) {
   .future {
-    font-size: 35px;
+    font-size: 48px;
+  }
+
+  .responsiveText {
+    font-size: 30px;
+  }
+
+  .HText {
+    font-size: 30px;
+  }
+
+  .PText {
+    font-size: 30px;
+  }
+  
+  .H2Text {
+    font-size: 30px;
+  }
+  
+  .disney {
+    float: left;
+    width: 30vh;
+    padding-right: 15px;
+  }
+  .title {
+    font-size: 50px;
+  }
+
+  /* Index styles */
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .images_1 {
+    width: 100vh;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .images_2 {
+    width: 87.8vh;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .images_3 {
+    width: 75.1vh;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .images {
+    text-align: center;
+    border:1px solid;
+  }
+  
+  .main-header {
+    padding: 5px;
+    color: purple;
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .info {
+    font-size: 30px;
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+
+  .link {
+    font-size: 30px;
+  }
+}
+
+
+@media (min-width: 650px) {
+  .future {
+    font-size: 45px;
   }
 
   .bucketlist {
-    font-size: 25px;
+    font-size: 48px;
   }
 
   .chernobyl {
     float: left;
-    width: 45vh;
     padding-right: 15px;
   }
 
@@ -194,6 +270,7 @@ footer,
     padding-right: 15px;
   }
 }
+
 
 @media (min-width: 1071px) {
   .title {
@@ -207,19 +284,19 @@ footer,
   }
 
   .images_1 {
-    width: 60vh;
+    width: 90vh;
     max-width: 100%;
     height: auto;
   }
   
   .images_2 {
-    width: 52.85vh;
+    width: 79.68vh;
     max-width: 100%;
     height: auto;
   }
   
   .images_3 {
-    width: 45.1vh;
+    width: 67.63vh;
     max-width: 100%;
     height: auto;
   }
