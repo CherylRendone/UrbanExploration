@@ -1,12 +1,12 @@
 UrbanExploration
 
 Description
-My project is about urban exploration. The places I've visited as an urban exploration,
-the places I hope to visit, background information and warnings/risks of the hobby.
+My project is about urban exploration; from the places I've visited as an urban explorer,
+the places I hope to visit, to the background information and warnings/risks of the hobby.
 
 
 Custom CSS Classes
-    The classes I created are:
+    Some of the classes I created are:
         1. .rotateimg 
             this class rotates an image
         2. .info::after, .link::after, .sticky::after

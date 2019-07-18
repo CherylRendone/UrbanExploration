@@ -1,6 +1,9 @@
 /* ================================= 
   Base Styles
 ==================================== */
+.title {
+  font-size: 18px;
+}
 
 .container {
   display: flex;
@@ -35,13 +38,13 @@
 
 .chernobyl {
   float: left;
-  width: 70vh;
+  width: 75vh;
   padding-right: 15px;
 }
 
 .disney {
   float: left;
-  width: 60vh;
+  width: 55vh;
   padding-right: 15px;
 }
 
@@ -75,6 +78,32 @@
 
 .warning {
   color: red;
+  text-transform: uppercase;
+}
+
+.never {
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+.warningTitle {
+  font-size: 28px;
+  padding-top: 15px;
+  color: tomato;
+  font-weight: bold;
+}
+
+.hazards {
+  padding-left: 25px;
+  font-weight: bold;
+}
+
+.gear {
+  padding-left: 25px;
+  font-weight: bold;
 }
   
 .info {
@@ -109,11 +138,18 @@ h3 {
 
 .HText {
   font-weight: bold;
+  font-size: 20px;
 }
 
 .H2Text {
   color: blue;
   font-weight: bold;
+}
+
+.text {
+  color: black;
+  font-weight: bold;
+  font-size: 32px;
 }
 
 .rotateimg {
@@ -127,6 +163,16 @@ h3 {
 .description {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.description2 {
+  padding: 15px 25px;
+  font-size: 18px;
+}
+
+.warnwrapper {
+  padding: 15px 25px;
+  font-size: 18px;
 }
 
 
@@ -149,21 +195,28 @@ footer {
 }
 
 .info,
-.link {
+.link,
+.description,
+.description2 {
   min-height: 100%;
   margin-bottom: -40px;
 }
 
 .info::after,
 .link::after,
-.sticky::after {
+.sticky::after,
+.description::after,
+.description2::after {
   content: "";
   display: block;
 }
 
 footer, 
 .info::after,
-.link::after {
+.link::after,
+.disney::after,
+.description::after,
+.description2::after {
   height: 40px;
 }
 
@@ -172,106 +225,10 @@ footer,
 /* ================================= 
   Media Queries
 ==================================== */
-/* @media (min-width: 450px) {
-  .responsiveText {
-    font-size: 30px;
-  }
-
-  .HText {
-    font-size: 30px;
-  }
-
-  .PText {
-    font-size: 30px;
-  }
-  
-  .H2Text {
-    font-size: 30px;
-  }
-  
-  .disney {
-    float: left;
-    width: 30vh;
-    padding-right: 15px;
-  }
-  .title {
-    font-size: 30px;
-  } */
-
-  /* Index styles */
-
-  /* .container {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .images_1 {
-    width: 100vh;
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .images_2 {
-    width: 87.8vh;
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .images_3 {
-    width: 75.1vh;
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .images {
-    text-align: center;
-    border:1px solid;
-  }
-  
-  .main-header {
-    padding: 5px;
-    color: purple;
-    font-size: 60px;
-    text-align: center;
-  }
-
-  .info {
-    font-size: 30px;
-    padding-left: 65px;
-    padding-right: 65px;
-  }
-
-  .link {
-    font-size: 30px;
-  }
-} */
-
-
-@media (min-width: 650px) {
-  .future {
-    font-size: 32px;
-  }
-
-  .bucketlist {
-    font-size: 48px;
-  }
-
-  .chernobyl {
-    float: left;
-    padding-right: 15px;
-  }
-
-  .disney {
-    float: left;
-    width: 45vh;
-    padding-right: 15px;
-  }
-}
-
 
 @media (min-width: 1071px) {
   .title {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   /* Index styles */
@@ -335,8 +292,12 @@ footer,
 
   .disney {
     float: left;
-    width: 90vh;
+    width: 70vh;
     padding-right: 15px;
+  }
+
+  .description2 {
+    font-size: 25px;
   }
 }
 
