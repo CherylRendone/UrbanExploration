@@ -5,6 +5,16 @@ function blink_text() {
 }
 setInterval(blink_text);
 
+
+
+
+// for (var i; i<4; i++) {
+//     $('.warning').animate({opacity: 0}), 700, 'linear', function(){
+//         $(this).animate({opacity: 1}, 700);
+//     };
+// }, (1500 * i);
+
+
 // changing text color and background of lists
 $('.gear:odd').css('background-color','white').css('color', 'maroon');
 $('.gear:even').css('background-color', 'white').css('color','navy');

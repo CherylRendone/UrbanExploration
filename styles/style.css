@@ -1,6 +1,8 @@
 /* ================================= 
   Base Styles
 ==================================== */
+
+
 .title {
   font-size: 18px;
 }
@@ -196,7 +198,6 @@ footer {
   clear: both;
 }
 
-.info,
 .link,
 .description,
 .description2 {
@@ -204,7 +205,6 @@ footer {
   margin-bottom: -40px;
 }
 
-.info::after,
 .link::after,
 .sticky::after,
 .description::after,
@@ -214,7 +214,6 @@ footer {
 }
 
 footer, 
-.info::after,
 .link::after,
 .disney::after,
 .description::after,
@@ -228,7 +227,42 @@ footer,
   Media Queries
 ==================================== */
 
-@media (min-width: 1071px) {
+/* Smartphones - potrait & landscape */
+@media only screen and (min-device-width: 100px) and (max-device-width: 480px) {
+  .images_1,
+  .images_3 {
+    display: none;
+  }
+
+  .container {
+    width: 650px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: height 0.3s;
+  }
+
+  .container img {
+    max-width: initial;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+
+  .title {
+    font-size: 40px;
+  }
+
+  .info, 
+  .link {
+    font-size: 30px;
+  }
+}
+
+
+@media screen and (min-width: 1071px) {
   .title {
     font-size: 30px;
   }
