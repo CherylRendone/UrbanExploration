@@ -40,13 +40,13 @@
 
 .chernobyl {
   float: left;
-  width: 75vh;
+  width: 55%;
   padding-right: 15px;
 }
 
 .disney {
   float: left;
-  width: 55vh;
+  width: 55%;
   padding-right: 15px;
 }
 
@@ -76,7 +76,7 @@
 .bucketlist {
   color: crimson;
   text-align: center;
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .warning {
@@ -167,6 +167,8 @@ h3 {
 .description {
   padding-left: 15px;
   padding-right: 15px;
+  font-size: 22px;
+  padding-bottom: 15px;
 }
 
 .description2 {
@@ -178,6 +180,8 @@ h3 {
   padding: 15px 25px;
   font-size: 18px;
 }
+
+
 
 
 /* ================================= 
@@ -250,7 +254,6 @@ footer,
     transform: translateY(-50%);
   }
 
-
   .title {
     font-size: 40px;
   }
@@ -259,7 +262,78 @@ footer,
   .link {
     font-size: 30px;
   }
+
+  .rose_div,
+  .INAAP_div,
+  .witches_div {
+    display: none;
+    overflow: hidden;
+  }
+
+  .entrance {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: 400px;
+    border-radius: 10px;
+  }
+
+  .bunker {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: 400px;
+    border-radius: 15px;
+  }
+
+  .fireplace {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 500px;
+    border-radius: 25px;
+  }
+
+  .entrance,
+  .bunker,
+  .fireplace {
+    padding-bottom: 50px;
+  }
+
+  .description {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 28px;
+    padding-bottom: 15px;
+  }
+
+  .hide {
+    display: none;
+    overflow: hidden;
+  }
+
+  .description2,
+  .warnwrapper {
+    font-size: 25px;
+  }
+
+  .warningTitle {
+    font-size: 32px;
+  }
+
 }
+
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1070px) {
+  .rose_div2,
+  .INAAP_div2,
+  .witches_div2 {
+    display: none;
+    overflow: hidden;
+  }
 
 
 @media screen and (min-width: 1071px) {
@@ -318,7 +392,8 @@ footer,
   /* Future Destination styling */
   .chernobyl {
     float: left;
-    width: 100vh;
+    width: 50px;
+    height: 100px;
     padding-right: 15px;
   }
 
@@ -340,6 +415,13 @@ footer,
 
   .description2 {
     font-size: 25px;
+  }
+
+  .rose_div2,
+  .INAAP_div2,
+  .witches_div2 {
+    display: none;
+    overflow: hidden;
   }
 }
 
