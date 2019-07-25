@@ -21,7 +21,6 @@ setTimeout(function () {
 }, blink.timeout);
 
 
-
 // changing text color and background of lists
 $('.gear:odd').css('color', 'maroon');
 $('.gear:even').css('color','navy');

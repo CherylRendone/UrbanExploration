@@ -3,10 +3,18 @@ UrbanExploration
 Description: My project is about urban exploration; from the places I've visited as an urban explorer,
 the places I hope to visit, to the background information and warnings/risks of the hobby.
 
+GitHub download instructions:
+    1. Select Clone or Download dropdown
+    2. Select the "Download Zip" option
+    3. Find downloaded zip in your downloads folder (can also be selected from browser)
+    4. Extract all files from zip folder to location of your choice
+    5. Find extracted files in location you chose in previous step
+    6. Open Index.html in your browser of choice to view website
+
 
 Custom CSS Classes: Some of the classes I created are:
     1. .rotateimg 
-        this class rotates an image
+            this class rotates an image
     2. .info::after, .link::after, .sticky::after
             keeps sticky footer below the content
     3. .PText
@@ -14,8 +22,9 @@ Custom CSS Classes: Some of the classes I created are:
 
 
 Custom JavaScript Functions: The JavaScript functions I created are:
-    1. function blink_text() {$('.warning').fadeOut(5);$('.warning')        .fadeIn(650);}
-            function blink_text is used to make the heading of the warning page flash red text.
+    1. blink.fn = setInterval(function () {blink.obj.fadeToggle(blink.speed);}
+         blink.speed + 1);
+            setInterval function is used to make the heading of the warning page flash red text (the blink variable in "blink.fn" sets the speed of the blinking text as well as the timeout of the function).
     2. $('.gear:odd').css('background-color','white').css('color',    
          'maroon');
             this function changes the background color of the ul list

@@ -163,7 +163,7 @@ h3 {
 .description {
   padding-left: 15px;
   padding-right: 15px;
-  font-size: 22px;
+  font-size: 28px;
   padding-bottom: 15px;
 }
 
@@ -242,14 +242,13 @@ html {
   margin: 0;
   padding: 10px;
   padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 30px;
+  padding-bottom: 30px;
+  font-size: 35px;
   color: white;
   text-align: center;
   line-height: 0px;
   clear: both;
 }
-
 
 
 /* ================================= 
@@ -331,7 +330,7 @@ html {
   .description {
     padding-left: 15px;
     padding-right: 15px;
-    font-size: 28px;
+    font-size: 34px;
     padding-bottom: 15px;
   }
 
@@ -354,6 +353,23 @@ html {
   .PText {
     font-size: 30px;
   }
+
+  .fixFoot {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 45px;
+  }
+
+  .carousel {
+    margin-bottom: 90px;
+  }
+  
+  footer {
+    font-size: 45px;
+    padding-bottom: 60px;
+    padding-top: 5px;
+    line-height: 45px;
+  }
 }
 
 
@@ -363,7 +379,7 @@ html {
   .witches_div2 {
     display: none;
     overflow: hidden;
-  }
+  }}
 
 
 @media screen and (min-width: 1071px) {
@@ -460,12 +476,3 @@ html {
 
 
 
-
-
-/* ================================= 
-  Clearfix
-==================================== */
-
-.clearfix {
-    overflow: auto;
-}
