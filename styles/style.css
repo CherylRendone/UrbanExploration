@@ -110,12 +110,12 @@
 }
 
 .gear {
-  padding-left: 25px;
+  padding-left: 28px;
   font-weight: bold;
 }
   
 .info {
-  font-size: 22px;
+  font-size: 25px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -285,7 +285,7 @@ html {
 
   .info, 
   .link {
-    font-size: 30px;
+    font-size: 34px;
   }
 
   .rose_div,
