@@ -4,7 +4,12 @@
 
 
 .title {
-  font-size: 18px;
+  font-size: 25px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
 .container {
@@ -110,7 +115,7 @@
 }
   
 .info {
-  font-size: 18px;
+  font-size: 22px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -119,14 +124,6 @@
   text-align: center;
   padding: 10px;
   font-size: 20px;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
 }
 
 h3 {
@@ -142,7 +139,6 @@ h3 {
 
 .HText {
   font-weight: bold;
-  font-size: 20px;
 }
 
 .H2Text {
@@ -185,7 +181,7 @@ h3 {
 
 
 /* ================================= 
-  Sticky Footer
+  Main Sticky Footer
 ==================================== */
 
 footer {
@@ -194,7 +190,7 @@ footer {
   bottom: 0;
   width: 100%;
   background: #333;
-  font-size: 20px;
+  font-size: 30px;
   color: white;
   text-align: center;
   line-height: 25px;
@@ -223,6 +219,35 @@ footer,
 .description::after,
 .description2::after {
   height: 40px;
+}
+
+.carousel {
+  margin-bottom: 80px;
+}
+
+/* ================================= 
+  Carousel Footer
+==================================== */
+
+html {
+  position: relative;
+}
+
+.fixFoot {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #333;
+  display: block;
+  margin: 0;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  line-height: 0px;
+  clear: both;
 }
 
 
@@ -324,10 +349,15 @@ footer,
     font-size: 32px;
   }
 
+  .H2Text,
+  .HText,
+  .PText {
+    font-size: 30px;
+  }
 }
 
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 1070px) {
+@media only screen and (min-device-width: 481px) and (max-device-width: 2000px) {
   .rose_div2,
   .INAAP_div2,
   .witches_div2 {

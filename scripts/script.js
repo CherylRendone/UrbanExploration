@@ -1,23 +1,30 @@
 // For flashing title of beware page
-function blink_text() {
-    $('.warning').fadeOut(5);
-    $('.warning').fadeIn(650);
-}
-setInterval(blink_text);
 
+//Blink settings
+var blink = {
+    obj: $(".warning"),
+    timeout: 6500,
+    speed: 600
+};
 
+//Start function
+blink.fn = setInterval(function () {
+    blink.obj.fadeToggle(blink.speed);
+}, blink.speed + 1);
 
+//Ends blinking, after 'blink.timeout' millisecons
+setTimeout(function () {
+    clearInterval(blink.fn);
+    //Ensure that the element is always visible
+    blink.obj.fadeIn(blink.speed);
+    blink = null;
+}, blink.timeout);
 
-// for (var i; i<4; i++) {
-//     $('.warning').animate({opacity: 0}), 700, 'linear', function(){
-//         $(this).animate({opacity: 1}, 700);
-//     };
-// }, (1500 * i);
 
 
 // changing text color and background of lists
-$('.gear:odd').css('background-color','white').css('color', 'maroon');
-$('.gear:even').css('background-color', 'white').css('color','navy');
+$('.gear:odd').css('color', 'maroon');
+$('.gear:even').css('color','navy');
 
-$('.hazards:odd').css('background-color','white').css('color', 'maroon');
-$('.hazards:even').css('background-color', 'white').css('color','navy');
+$('.hazards:odd').css('color', 'maroon');
+$('.hazards:even').css('color','navy');
